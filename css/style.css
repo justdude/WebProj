@@ -1,0 +1,98 @@
+body{
+    /* Style for "V5HLB8NUCL" */
+    font-size: 16px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color :#4d4d4d;
+}
+.wrapper
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Saraevo main part*/
+
+.banner {
+    background: url("../img/background1.png") no-repeat center;
+    height: 701px;
+}
+
+.banner-text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+h1 .lg
+{
+    /* Style for "sarajevo." */
+    width: 243px;
+    height: 58px;
+    color: #ffffff;
+   /* font-family: "Lato - Black"; */
+    font-weight: bold;
+    font-size: 62px;
+}
+
+h1 .lg2
+{
+    /* Style for "/creative" */
+    width: 579px;
+    height: 43px;
+    opacity: 0.9;
+    color: #4c76ff;
+   /* font-family: "Lato - Thin";*/
+    font-size: 48px;
+    font-weight: 400;
+    /* Text style for "/creative" */
+   /* color: #4c76ff;*/
+}
+
+h1 .lg3
+{
+    /* Style for "one page template" */
+    width: 579px;
+    height: 43px;
+    opacity: 0.9;
+    color: #ffffff;
+    /* font-family: "Lato - Thin";*/
+    font-size: 48px;
+    font-weight: 400;
+    /* Text style for "/creative" */
+    /* color: #4c76ff;*/
+}
+
+h1 .lg4
+{
+    /* Style for "We are a t" */
+    width: 237px;
+    height: 16px;
+    opacity: 0.9;
+    color: #ffffff;
+   /* font-family: "Lato - Thin"; */
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*Features*/
+
+.features{
+    padding: 10px 0;
+}
+.heading-features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading h2:after {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 45px;
+    background-color: #f39c12;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -22px;
+    margin-left: 19px;
+}
