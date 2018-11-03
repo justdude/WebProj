@@ -30,7 +30,7 @@ h1 .lg
     width: 243px;
     height: 58px;
     color: #ffffff;
-    /* font-family: "Lato - Black"; */
+   /* font-family: "Lato - Black"; */
     font-weight: bold;
     font-size: 62px;
 }
@@ -42,11 +42,11 @@ h1 .lg2
     height: 43px;
     opacity: 0.9;
     color: #4c76ff;
-    /* font-family: "Lato - Thin";*/
+   /* font-family: "Lato - Thin";*/
     font-size: 48px;
     font-weight: 400;
     /* Text style for "/creative" */
-    /* color: #4c76ff;*/
+   /* color: #4c76ff;*/
 }
 
 h1 .lg3
@@ -70,7 +70,7 @@ h1 .lg4
     height: 16px;
     opacity: 0.9;
     color: #ffffff;
-    /* font-family: "Lato - Thin"; */
+   /* font-family: "Lato - Thin"; */
     font-size: 18px;
     font-weight: 300;
 }
@@ -78,27 +78,13 @@ h1 .lg4
 /*Features*/
 
 #features {
-    margin: auto;
-    width: 100%;
-    border: 3px solid #73AD21;
-    padding: 10px;
+    padding: 10px 0;
 }
 .heading-features {
-   /* display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    text-align: center; */
 }
-.feature-wrap-content
-{
-    padding: 10px;
-}
-
-.features-list{
-    padding: 50px 0 0 0;
-    width: auto;
-}
-
 .feature-wrap-content__text{
     width: 252px;
     height: 61px;
