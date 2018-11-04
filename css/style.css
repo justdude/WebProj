@@ -5,6 +5,26 @@ body{
     color :#4d4d4d;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #4c76ff;
+    line-height: 36px;
+    margin-bottom: 15px;
+    letter-spacing: -0.20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.leftside {
+    width: 20%;
+    float: left;
+    text-align: center
+}
+.righttside {
+    width: 80%;
+    float: left;
+}
 /*Banner*/
 
 #banner {
@@ -28,9 +48,6 @@ body{
     display: inline-block;
     margin: 5px 30px;
 }
-
-
-/*Fonts*/
 
 #banner h1 .lg
 {
@@ -87,14 +104,36 @@ body{
 #features {
     margin: auto;
     width: 100%;
-    /*border: 3px solid #73AD21;*/
-    background: #fff;
-    padding: 10px;
+    padding: 75px 0 110px;
+    background: #efefef;
 }
 /*Feautures header text*/
 #features .heartline {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
+    text-align: center;
 }
+
+#features .leftside i {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    line-height: 30px;
+    border: 1px solid #4c76ff;
+    text-align: center;
+    color: #4c76ff;
+}
+#features .righttside p {
+    font-size: 11px;
+    color: #062033;
+    line-height: 17px;
+}
+#features .righttside h3 {
+    font-size: 17px;
+    color: #062033;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 span.line {
     width: 90px;
     height: 1px;
@@ -112,8 +151,7 @@ span.line {
 }
 
 .features-list{
-    padding: 50px 0 0 0;
-    width: auto;
+    padding: 15px 0 0 0;
 }
 
 .feature-wrap-content__text{
