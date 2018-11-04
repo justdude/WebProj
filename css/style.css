@@ -213,13 +213,17 @@ span.line {
 
 .leftImg
 {
-    position: relative;
-    right: -15px;
+    position: absolute;
+    left: 0;
     top: 0;
 }
 .rightText
 {
-    position: absolute;
+    padding-right: 15px;
+}
+.textWithImg
+{
+    position: relative;
 }
 /*Features descr*/
 /*background-image: url('../images/divbg.png');*/
