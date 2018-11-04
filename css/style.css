@@ -207,6 +207,19 @@ span.line {
     margin-left: 19px;
 }
 
+.specifications h3 {
+    margin-bottom: 20px;
+}
 
+.leftImg
+{
+    position: relative;
+    right: -15px;
+    top: 0;
+}
+.rightText
+{
+    position: absolute;
+}
 /*Features descr*/
 /*background-image: url('../images/divbg.png');*/
