@@ -107,6 +107,23 @@ h2 {
     font-size: 18px;
     font-weight: 300;
 }
+#banner .linetext:before {
+     content: '';
+     width: 100px;
+     height: 1px;
+     background: blue;
+     position: absolute;
+     left: -150px;
+ }
+
+#banner .linetext:after {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: blue;
+    position: absolute;
+    left: 150px;
+}
 
 /*Features*/
 #features {
@@ -115,6 +132,7 @@ h2 {
     padding: 75px 0 110px;
     background: #efefef;
 }
+
 /*Feautures header text*/
 #features .heartline {
     margin-bottom: 10px;
