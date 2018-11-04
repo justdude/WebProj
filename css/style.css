@@ -25,10 +25,16 @@ h2 {
     width: 80%;
     float: left;
 }
+
+.socials {
+    margin: 40px 0 0;
+}
+
 /*Banner*/
 
 #banner {
     background: url("../img/background1.png") no-repeat center;
+    background-attachment: fixed;
     background-size: cover;
     padding: 90px 0 120px;
     text-align: center;
@@ -36,9 +42,11 @@ h2 {
 }
 
 #banner .banner-text {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    text-align: center;
+    padding-top: 50px;
+    /*padding-bottom: 200px;*/
+    /*text-align: center;*/
+    width: 100%;
+    margin: auto;
 }
 
 #banner span.smallline {
