@@ -225,5 +225,18 @@ span.line {
 {
     position: relative;
 }
+/*2) задать картинке высоту 100% и position: absolute и центрировать left: 50%, transform: translate(-50%, 0);*/
+#specifications .img
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    height: 100%;
+}
+
+#specifications .centered-grid{
+    position: relative;
+}
+
 /*Features descr*/
 /*background-image: url('../images/divbg.png');*/
