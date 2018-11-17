@@ -225,17 +225,40 @@ span.line {
 {
     position: relative;
 }
+
+#specifications {
+    padding: 90px 0 60px;
+}
+#specifications h3 {
+    font-size: 15px;
+    line-height: 30px;
+    color: #282528;
+    margin-bottom: 60px;
+    text-align: center;
+}
+#specifications  h4 {
+    font-size: 17px;
+    color: #062033;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 /*2) задать картинке высоту 100% и position: absolute и центрировать left: 50%, transform: translate(-50%, 0);*/
 #specifications .img
 {
     position: absolute;
     left: 50%;
     transform: translate(-50%,0);
-    height: 50%;
+    height: 100%;
 }
 
 #specifications .centered-grid{
     position: relative;
+}
+
+#portfoliosec {
+    padding: 60px 0 50px;
+    text-align: center;
 }
 
 /*Features descr*/
