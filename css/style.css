@@ -109,14 +109,24 @@ h2 {
     position: relative;
 }
 
+/*Feautures header text*/
+.heartline {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 .linetext:before {
     content: '';
     width: 100px;
     height: 1px;
     background: blue;
-    position: absolute;
-    left: -150px;
-    top: 50%;
+    /*position: absolute;*/
+    /*left: -150px;*/
+    /*top: 50%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
 }
 
 .linetext:after {
@@ -124,9 +134,13 @@ h2 {
     width: 100px;
     height: 1px;
     background: blue;
-    position: absolute;
-    right: -150px;
-    top: 50%;
+    /*position: absolute;*/
+    /*right: -150px;*/
+    /*top: 50%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
 }
 
 #banner .linetext:before {
@@ -157,11 +171,7 @@ h2 {
     background: #efefef;
 }
 
-/*Feautures header text*/
- .heartline {
-    margin-bottom: 10px;
-    text-align: center;
-}
+
 
 #features .leftside i {
     width: 34px;
@@ -286,6 +296,27 @@ span.line {
     background: url("../img/count.jpg") no-repeat center center;
     background-size: cover;
     text-align: center;
+}
+
+#portfoliolist{
+    width: 100%;
+}
+
+/*FIX NAMING!!! rename to .items-item -img*/
+.img-portfolie {
+    padding-bottom: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.img-portfolie img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100%;
+}
+
+.portfolio{
+    margin: 0px;
 }
 
 /*Features descr*/
