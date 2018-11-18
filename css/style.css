@@ -109,6 +109,26 @@ h2 {
     position: relative;
 }
 
+.linetext:before {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: blue;
+    position: absolute;
+    left: -150px;
+    top: 50%;
+}
+
+.linetext:after {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: blue;
+    position: absolute;
+    right: -150px;
+    top: 50%;
+}
+
 #banner .linetext:before {
      content: '';
      width: 100px;
